@@ -76,7 +76,7 @@ Sub VBA_Challenge()
 '       ------------Loop END for Ticker/YearlyChange/PercentChange------------
 
 '       The above loop adds values to the same row that a change was found, so
-'       the below will condence the table by removing extra spaces from columns I through K
+'       the below will condence the table by removing extra spaces from columns I through L
         WS.Range("I:L").SpecialCells(xlCellTypeBlanks).Delete
        
 '       Column Formatting
