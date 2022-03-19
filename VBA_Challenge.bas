@@ -82,9 +82,6 @@ Sub VBA_Challenge()
 '       Column Formatting
         ActiveSheet.UsedRange.EntireColumn.AutoFit
     Next WS
-    
-'   Calling Total Volume Calculation from another SUB
-    'Call Volume
 
 '   Calling Bonus from another SUB
     Call Bonus
